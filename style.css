@@ -848,6 +848,7 @@ animation-name: C;
 .button-3-center{
         display: flex;
         justify-content: center;
+	align-item: center;
     }
     
     #button-3{

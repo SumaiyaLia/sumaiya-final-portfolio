@@ -1122,7 +1122,7 @@ p #mail{
 /*-------------for card1 hover--------------*/
 .overlay1{
     width: 245px;
-    transform: translateX(-38%);
+    transform: translateX(-24%);
    
    }
 
@@ -1130,13 +1130,13 @@ p #mail{
 /*-------------for card2 hover--------------*/
 .overlay2{
     width: 245px;
-    transform: translateX(-38%);
+    transform: translateX(-24%);
 }
 
 /*-------------for card3 hover--------------*/
 .overlay3{
     width: 245px;
-    transform: translateX(-38%);
+    transform: translateX(-24%);
    }
 .image-container:hover .overlay3{
     bottom: 0;
@@ -1147,7 +1147,7 @@ p #mail{
 /*-------------for card4 hover start--------------*/
 .overlay4{
     width: 245px;
-    transform: translateX(-38%);
+    transform: translateX(-24%);
    }
 .image-container:hover .overlay4{
     bottom: 0;
@@ -1253,7 +1253,7 @@ p #mail{
      }
     /*------------Contact section------------------*/
     #t-area{
-        width: 355px;
+        width: 300px;
         font-size: 2rem;
         border: none;
         resize: none;

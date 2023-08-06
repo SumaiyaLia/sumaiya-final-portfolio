@@ -1,0 +1,1576 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+/*----------basic start here-----------*/
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root{
+    --lg-font: 'kaisei Tokumin', serif;
+    --sm-font: 'poppins', sans-serif;
+   
+ }
+
+body, html{
+    scroll-behavior: smooth;
+    font-size:10px;
+    line-height: 1.5;
+ }
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    /*padding-bottom: 95px;*/
+}
+
+section{
+    padding: 50px 0;
+    width: 100%;
+    }
+
+
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 19px;
+}
+h5{
+    font-size: 50px;
+    letter-spacing: 4;
+    display: block;
+    color:black;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4;
+    display: block;
+    color:black;
+    margin-bottom: 20px;
+}
+.hr-style{
+    border: 10px dotted white;
+    border-bottom: none ;
+    width: 70px;
+  
+}
+
+/*---------for Common button-----------*/
+#home h2{
+        font-size: 40px;
+        line-height:1.3;
+        font-weight: 600;
+        color:black;
+        margin-bottom: 15px;
+        font-family: "Sofia", sans-serif;
+  		text-shadow: 3px 3px 3px #ababab;
+}
+
+#home h1{
+    font-size: 50px;
+    line-height:1.3;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 15px;
+    font-family: 'kaisei Tokumin', serif;
+    font-weight: bold;
+    }
+#home span{
+    font-family: 'kaisei Tokumin', serif;
+}
+.main-btn{
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    font-size: 1.2rem;
+    background-color: #f9004d;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+.main-btn:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    color: white;
+    cursor: pointer;
+}
+/*-----------navbar section---------------*/
+
+.navbar {
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 3px 9px 3px white;
+	}
+   
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.navbar-nav a{
+    font-size: 1.5rem;
+    font-family: 'kaisei Tokumin', serif;
+}
+#logo{
+    padding-left: 50px;
+	color: white;
+	font-size: 5rem;
+	font-weight: bold;
+	font-family: cursive;
+}
+span{
+	color: rgb(206, 0, 0);
+	font-family: cursive;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 1.7rem;
+    transition: 0.4s;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgba(255, 19, 120, 0.5);
+   }
+/*-----------navbar section ends---------------*/
+
+/*-------------header section start---------------*/
+#home{
+    padding-left: 50px;
+    padding-top: 150px;
+	background-color: rgba(255, 192, 203,0.4);
+    height: 100%;
+}
+
+  .butterfly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#home img{
+    width: 400px;
+    height: 300px;
+}
+#home h1{
+    color: black;
+}
+#home h3{
+    font-size: 3rem;
+}
+/*-------------header section end---------------*/
+
+/*-------------About me section start---------------*/
+#aboutMe{
+    background-color:black;
+    height: 100%;
+    box-shadow: 0 3px 9px 3px red;
+    
+}
+#aboutMe .title h2{
+    text-align: center;
+    font-size: 50px;
+    color: #D7EBEC;
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-family: 'kaisei Tokumin', serif;
+}
+.text{
+    text-align: center;
+}
+.text h5{
+    color: white;
+}
+
+.aboutDev{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.text p{
+    font-size: 2rem;
+    padding: 20px;
+    color: #fcfc;
+}
+
+.second-btn{
+    display: inline-block;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    font-size: 1.5rem;
+    background-color: #f9004d;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+.second-btn:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    color: white;
+    cursor: pointer;
+}
+
+.about-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-pic img{
+     width: 300px;
+    height: 350px;
+    border-radius: 200px;
+}
+/*-------------About me section end---------------*/
+
+/*--------------Skill Section start------------------------------*/
+section #skill{
+    justify-content: center;
+    padding-left: 4%;
+}
+section{
+    background-color: rgba(255, 192, 203,0.4);
+}
+
+#skill .title h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: black;
+    font-family: 'kaisei Tokumin', serif;
+    font-weight: bold;
+}				
+.skills{
+    width:92%;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 2%;;
+    margin-bottom: 4%;
+    background:rgb(221, 182, 182);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 5px rgba(5, 5, 5, 0.911);
+}
+
+   
+.card-content{
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.card-content h3{
+    font-size: 2rem;
+    font-family: cursive;
+    padding-top: 5px;
+}
+.p-skill{
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+li{
+    font-size: 1.5rem;
+    color: black;
+  
+}
+/*-------------card1 (skill section) design------------------*/
+
+.skills-container{
+    text-align: left;
+    color: black;
+}
+
+.skills-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(249, 0, 77, 0.5);
+    border-radius: 1000px;
+    
+}
+
+.skills-container li.html::after{
+animation-name: html;
+}
+
+
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+.skills-container li.css::after{
+    animation-name: css;
+    }
+
+    @keyframes css{
+        to{
+            width: 80%;
+        }
+    }
+
+    .skills-container li.bootstrap::after{
+    animation-name: bootstrap;
+    }
+
+    @keyframes bootstrap{
+        to{
+            width: 70%;
+        }
+    }
+    .skills-container li.javascript::after{
+        animation-name: javascript;
+        }
+
+        @keyframes javascript{
+            to{
+                width: 60%;
+            }
+        }
+
+        .skills-container li.github::after{
+            animation-name: github;
+            }
+
+            @keyframes github{
+                to{
+                    width: 60%;
+                }
+            }
+
+    
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width:0;
+    height: 10px;
+    background-color: rgb(249, 0, 77, 1);
+    border-radius: 1000px;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+}
+
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 20px;
+    padding-top: 10px;
+    position: relative;
+     
+}
+
+/*----------------------Card 2 start here------------------------*/
+
+
+
+.skills-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(249, 0, 77, 0.5);
+    border-radius: 1000px;
+    
+}
+
+.skills-container li.C::after{
+animation-name: C;
+}
+
+
+@keyframes C{
+    to{
+        width: 90%;
+    }
+}
+.skills-container li.java::after{
+    animation-name: java;
+    }
+
+    @keyframes java{
+        to{
+            width: 80%;
+        }
+    }
+
+    .skills-container li.photoshop::after{
+    animation-name: photoshop;
+    }
+
+    @keyframes photoshop{
+        to{
+            width: 80%;
+        }
+    }
+    .skills-container li.animation::after{
+        animation-name: animation;
+        }
+
+        @keyframes animation{
+            to{
+                width: 60%;
+            }
+        }
+
+        .skills-container li.MS::after{
+            animation-name: MS;
+            }
+
+            @keyframes MS{
+                to{
+                    width: 98%;
+                }
+            }
+
+    
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width:0;
+    height: 10px;
+    background-color: rgb(249, 0, 77, 1);
+    border-radius: 1000px;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+}
+
+.skills-container li{
+    list-style: none;
+    font-weight: bolder;
+    margin: 50px 20px;
+    padding-top: 10px;
+    position: relative;
+     
+}
+/*----------------------Card 2 End here------------------------*/
+/*--------------card 3 start--------------------------*/
+
+.edu-head{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.information{
+    padding-left: 5%;
+}
+.information li{
+    font-size: 1.5rem;
+}
+.uname{
+    font-size: 1.5rem;
+}
+/*-------------------card 3 end---------------------*/
+/*--------------Skill Section ends------------------------------*/
+
+/*--------------Service section start------------------------------*/
+#service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-color: black;
+       
+} 
+                        
+/*----------Service section card1----------------*/
+
+
+/* Common styles for all cards */
+#service .title h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'kaisei Tokumin', serif;
+}
+#service i{
+    font-size: 2.5rem;
+    padding-bottom: 2px;
+}
+#service h5{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 0px;
+    text-align: center;
+}
+
+#service .card {
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+    margin-left: 2%;
+    margin-right: 2%; /* Add a margin-right to create some spacing between the cards */
+    background:rgb(48, 45, 48);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  #service .card:hover {
+    box-shadow: 0 4px 8px 5px rgba(245, 245, 245,0.5);
+  }
+  
+ 
+  .card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #fcfc;
+  }
+  
+  .para p {
+    color: #fcfc;;
+    padding: 20px 10px;
+    line-height: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .button {
+    background-color: #f9004d;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 12px;
+    padding: 5px 10px;
+    transition: .4s;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  
+  #service::after {
+    clear: both;
+    display: table;
+    content: '';
+  }
+
+/*-----------service section end-----------*/
+
+/*--------------Service section End------------------------------*/
+
+
+ /*-----------My Work Section start here-----------*/
+ #Mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(255, 192, 203,0.5);
+   } 
+   #Mywork .title h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: 'kaisei Tokumin', serif;
+
+   }
+    /* Set the container as relative to position the text inside */
+.image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+  }    
+
+
+.image-container img {
+  display: block;
+  max-width: 250px;
+  height: 300px;
+  
+}
+.image-text{
+    background-color: rgb(235, 117, 0);
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*-------------for card1 hover--------------*/
+.overlay1{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background-color: rgba(250, 124, 21, 0.7); 
+    overflow: hidden;
+    width: 250px;
+    height: 0;
+    transition: 0.5s ease;
+}
+.image-container:hover .overlay1{
+    bottom: 0;
+    height: 100%;
+}
+
+/*-------------for card2 hover--------------*/
+.overlay2{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.5); 
+    overflow: hidden;
+    width: 250px;
+    height: 0;
+    transition: 0.5s ease;
+}
+.image-container:hover .overlay2{
+    bottom: 0;
+    height: 100%;
+}
+/*-------------for card3 hover--------------*/
+.overlay3{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background-color: rgba(255, 255, 255,0.5); 
+    overflow: hidden;
+    width: 250px;
+    height: 0;
+    transition: 0.5s ease;
+}
+.image-container:hover .overlay3{
+    bottom: 0;
+    height: 100%;
+}
+/*-------------for card3 hover eds--------------*/
+
+/*-------------for card4 hover start--------------*/
+.overlay4{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background-color: rgba(16, 173, 235,0.5); 
+    overflow: hidden;
+    width: 250px;
+    height: 0;
+    transition: 0.5s ease;
+}
+.image-container:hover .overlay4{
+    bottom: 0;
+    height: 100%;
+}
+/*-------------for card4 hover eds--------------*/
+
+/*-----------My Work Section end here-----------*/
+
+
+
+/*-----------Client Review start here-----------*/
+#Creview{
+    background: rgb(236, 219, 219);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#Creview .title h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: 'kaisei Tokumin', serif;
+}
+.slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.5sec;
+}
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.user-img img{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.user-text{
+    background: black;
+    width: 450px;
+    height: 150px;
+    position:absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: white;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.user-text p{
+    font-size: 12px;
+    line-height: 20px;
+ }
+.user-text h3{
+    color: white;
+    margin-bottom: 0;
+}
+.user-text h4{
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.container{
+    width: 800px;
+    height: 580px;
+    position: absolute;
+    top:68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+}
+.btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: #f9004d;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.active{
+    width: 45px;
+}
+
+.testimonial{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*-----------Client Review end here-----------*/
+
+/*-----------Contact section start here-----------*/
+
+#Contact{
+    background-color: black;
+    margin-top: 0;
+}
+#Contact .title h2{
+   color: white;
+   padding-top: 0;
+   font-size: 40px;
+   padding-bottom: 50px;
+   font-family: 'kaisei Tokumin', serif;
+}
+
+                        
+    .c-head{
+        width:100%;
+        margin-top: 50px;
+        color: white;
+        text-align: center;
+        font-size: 52px;
+        padding: 20px;
+    }
+    .contact-text h6{
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .p-con{
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        color: #fcfc;
+        letter-spacing: 2px;
+    }
+
+    
+    #button-3{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-size: 20px;
+        padding: 10px 20px;
+        transition: .4s;
+      }
+      
+      .button-3:hover {
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+      }
+      
+    .button-3-center{
+        display: flex;
+        justify-content: center;
+    }
+.contact-body{
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+    }
+.p-form{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        color: white;
+        letter-spacing: 1px;
+    }	
+   
+.contact-body form{
+        text-align: center;
+        align-items: center;
+        
+}
+    
+.contact-body input{
+    background-color: white;
+    width: 90%;
+    font-size: 2rem;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+   }
+p #mail{
+    font-size: 1.5rem;
+}
+.name{
+   padding-bottom: 3px;
+  }
+  .text-area{
+   padding-left: 10px;
+   
+  }
+ #t-area{
+     width: 92%;
+     font-size: 2rem;
+     border: none;
+     resize: none;
+     border-radius: 5px;
+     padding-left: 10px;
+     
+ }
+    .button-4{
+        transform: translateX(50%);
+        width: 100px;
+        background-color: #f9004d;
+        color: white;
+        margin-right: 20px;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-size: 25px;
+        padding: 10px 0px;
+        transition: .4s;
+        right: 10%;
+    }
+
+    .button-4:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+
+    }
+    .button-center{
+      padding-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      justify-self: center;
+      }
+      
+
+/*----- Contact me section end----------*/
+
+/*----------footer section start here--------------*/
+ 					
+    footer{
+        position: relative;
+        width:100%;
+        height: 400px;
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p:nth-child(1){
+        font-size: 30px;
+        color: white;
+        margin-bottom: 20px;
+        font-family: "Sofia", sans-serif;
+    }
+    footer p:nth-child(2){
+        font-size: 22px;
+        color: white;
+        width: 500px;
+        text-align: center;
+        line-height: 26px;
+    }
+    .social{
+        display: flex;
+        padding-bottom: 30px;
+    }
+    .social a{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:#f9004d;
+        border-radius: 50%;
+        margin: 22px 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        }
+
+    .social a:hover{
+        transform: scale(1.3);
+        transition: .4s;
+    }
+    .end{
+        margin-top: 50px;
+        position: absolute;
+        color: #fcfc;
+        bottom: 40px;
+        font-size: 14px;
+    }
+  /*----- Footer section End----------*/
+
+/*-----------media Quary section start---------------*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    p{
+    font-size: 1.5rem;
+    padding: 20px;
+    }
+    
+    p{
+    font-size: 1.5rem;
+    padding: 20px;
+    padding-left: 20px;
+    }
+
+
+    /*----------------nav bar----------------------------*/
+    #home img{
+    width: 150px;
+    height: 150px;
+    }
+    .butterfly{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding-top: 30px;
+    }
+    #home h2{
+    font-size: 20px;
+    }
+    #home h1{
+    font-size: 25px;
+    }
+    #home h3{
+    font-size: 15px;
+    }
+    /*------------About me section start------------------*/
+
+    #aboutMe .title h2{
+    font-size: 40px;
+    }
+    #aboutMe p{
+    font-size: 18px;
+    padding-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .about-pic img{
+    width: 200px;
+    height: 150px;
+    border-radius: 200px;
+    }
+    .about-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    }
+    /*------------About me section end------------------*/
+   /*----------skill section start------------*/
+   .skill-con{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   }
+   .skills{
+    width: 300px;
+    height: 650px;
+    margin-left: 5%;
+    margin-right: 2%;;
+    margin-bottom: 4%;
+    background:rgb(221, 182, 182);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 5px rgba(5, 5, 5, 0.911);
+}
+
+.information p{
+    font-size: 15px;
+}
+.information li{
+    font-size: 11px;
+}
+
+   /*----------skill section End------------*/
+   
+    #service .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #service .col-sm-12.col-md-4 {
+    width: 100%;
+    max-width: 450px; /* Limit the maximum width of the card to 400px on small screens */
+  }
+  /*------my works section----------*/
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+      
+  }    
+
+    .image-container img {
+     display: block;
+     max-width: 245px;
+     height: 300px;
+        
+    }
+  
+
+
+/*-------------for card1 hover--------------*/
+.overlay1{
+    max-width: 245px;
+    transform: translate(-24%);
+   
+   }
+
+
+/*-------------for card2 hover--------------*/
+.overlay2{
+    width: 245px;
+    transform: translate(-24%);
+}
+
+/*-------------for card3 hover--------------*/
+.overlay3{
+    width: 245px;
+    transform: translate(-24%);
+   }
+.image-container:hover .overlay3{
+    bottom: 0;
+    height: 100%;
+}
+/*-------------for card3 hover eds--------------*/
+
+/*-------------for card4 hover start--------------*/
+.overlay4{
+    width: 245px;
+    transform: translate(-24%);
+   }
+.image-container:hover .overlay4{
+    bottom: 0;
+    height: 100%;
+}
+
+
+  /*------my works section- ends---------*/
+
+    /*-----------Client Review start here-----------*/
+
+     /*-----------Client Review start here-----------*/
+
+     #Creview .title h2{
+        font-size: 40px;
+        padding-top: 0px;
+        color: black;
+     }
+     .slide-row{
+         display: flex;
+         width: 3200px;
+         transition: 0.5sec;
+     }
+     .slide-col{
+         width: 800px;
+         height: 200px;
+         position: relative;
+     }
+     .user-img img{
+         padding-top: 30px;
+         width: 300px;
+         transform: translateX(-135%);
+         height: 100%px;
+         border-radius: 150px;
+     }
+     
+     .user-text{
+         background: black;
+         width: 360px;
+         height: 130px;
+         top:90%;
+         transform: translateY(80%);
+         left: 6%;
+         border-radius: 10px;
+         color: white;
+         padding-top: 15px;
+         padding-left: 8px;
+         padding-right:0;
+         box-sizing: border-box;
+         z-index: 2;
+     
+     }
+     .user-text p{
+         padding-right: 10px;
+         padding-left: 5px;
+         padding-top: 0;
+         font-size: 12px;
+         line-height: 16px;
+      }
+     .user-text h3{
+         font-size: 20px;
+         color: white;
+         margin-bottom: 0;
+     }
+     .user-text h4{
+         font-size: 12px;
+         margin-top: 0;
+         padding-bottom: 5px;
+     }
+     
+     .container{
+         width: 500px;
+         height: 500px;
+         position: absolute;
+         top:50%;
+         transform: translate(-50%, -50%);
+     }
+     
+     .indicator{
+         position: absolute;
+         left: 50%;
+         transform: translateX(-50%);
+         bottom: -10%;
+     }
+     .btn{
+         display: inline-block;
+         height: 15px;
+         width: 15px;
+         margin: 4px;
+         border-radius: 15px;
+         background-color: #f9004d;
+         cursor: pointer;
+         transition: 0.4s;
+     }
+     .active{
+         width: 45px;
+     }
+     .testimonial{
+         padding-top: 5%;
+         width: 100%;
+         height: 100%;
+         overflow: hidden;
+     }
+    /*------------Contact section------------------*/
+    #t-area{
+        width: 300px;
+        font-size: 2rem;
+        border: none;
+        resize: none;
+        border-radius: 5px;
+    }
+   .button-3-center{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+   }
+    #button-3{
+    width: 130px;
+   }
+   #button-3:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+   }
+
+    .button-center{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #footer p{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.5rem;
+      }
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        #logo{
+            font-size: 2.5rem;
+        }
+       
+        #home img{
+        width: 150px;
+        height: 150px;
+        }
+        .butterfly{
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            padding-top: 30px;
+        }
+        #home h2{
+        font-size: 20px;
+        }
+        #home h1{
+        font-size: 25px;
+        }
+        #home h3{
+        font-size: 15px;
+        }
+        /*------------About me section start------------------*/
+        
+        #aboutMe .title h2{
+            font-size: 20px;
+        }
+        #aboutMe h5{
+            font-size: 1.5rem;
+        }
+        #aboutMe p{
+            font-size: 12px;
+            padding-top: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .about-pic img{
+        width: 200px;
+        height: 150px;
+        border-radius: 200px;
+        }
+        .about-pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            }
+    /*------------About me section end------------------*/
+
+            /*----------skill section start------------*/
+   .skill-con{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   }
+   .skills{
+    width: 300px;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 2%;;
+    margin-bottom: 4%;
+    background:rgb(221, 182, 182);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 5px rgba(5, 5, 5, 0.911);
+}
+
+.information p{
+    font-size: 15px;
+}
+.information li{
+    font-size: 11px;
+}
+
+   /*----------skill section End------------*/
+
+    #service .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #service .col-sm-12.col-md-4 {
+        width: 100%;
+        max-width: 450px; /* Limit the maximum width of the card to 400px on small screens */
+      }
+     
+     /*------my works section----------*/
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+      
+  }    
+
+    .image-container img {
+     display: block;
+     max-width: 245px;
+     height: 300px;
+        
+    }
+  
+
+
+/*-------------for card1 hover--------------*/
+.overlay1{
+    width: 245px;
+    transform: translateX(-90%);
+   }
+
+
+/*-------------for card2 hover--------------*/
+.overlay2{
+    width: 245px;
+    transform: translateX(-90%);
+}
+
+/*-------------for card3 hover--------------*/
+.overlay3{
+    width: 245px;
+     transform: translateX(-90%);
+   }
+.image-container:hover .overlay3{
+    bottom: 0;
+    height: 100%;
+}
+/*-------------for card3 hover eds--------------*/
+
+/*-------------for card4 hover start--------------*/
+.overlay4{
+        width: 245px;
+       transform: translateX(-90%);
+   }
+.image-container:hover .overlay4{
+    bottom: 0;
+    height: 100%;
+}
+
+
+  /*------my works section- ends---------*/
+    
+   
+      
+
+        /*-----------Client Review start here-----------*/
+
+        #Creview .title h2{
+           font-size: 40px;
+           padding-top: 0px;
+           color: black;
+        }
+        .slide-row{
+            display: flex;
+            width: 3200px;
+            transition: 0.5sec;
+        }
+        .slide-col{
+            width: 800px;
+            height: 200px;
+            position: relative;
+        }
+        .user-img img{
+            padding-top: 30px;
+            width: 1000px;
+            height: 600px;
+            border-radius: 50px;
+        }
+        
+        .user-text{
+            background: black;
+            width: 600px;
+            height: 120px;
+            position:relative;
+            top:90%;
+            transform: translateY(90%);
+            border-radius: 10px;
+            color: white;
+            padding-top: 15px;
+            padding-left: 80px;
+            padding-right:0;
+            box-sizing: border-box;
+            z-index: 2;
+        
+        }
+        .user-text p{
+            padding-right: 100px;
+            padding-top: 0;
+            font-size: 12px;
+            line-height: 16px;
+         }
+        .user-text h3{
+            font-size: 20px;
+            color: white;
+            margin-bottom: 0;
+        }
+        .user-text h4{
+            font-size: 12px;
+            margin-top: 0;
+            padding-bottom: 5px;
+        }
+        
+        .container{
+            width: 2000px;
+            height: 500px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .indicator{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -10%;
+        }
+        .btn{
+            display: inline-block;
+            height: 15px;
+            width: 15px;
+            margin: 4px;
+            border-radius: 15px;
+            background-color: #f9004d;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+        .active{
+            width: 45px;
+        }
+        
+        .testimonial{
+            padding-top: 5%;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        /*------------Contact section------------------*/
+        #t-area{
+            font-size: 2rem;
+            border: none;
+            resize: none;
+            border-radius: 5px;
+        }
+}
+
+
+ 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+        width: 100%;
+        height: 700px;
+        padding-bottom: 65px;
+    }
+    
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    p{
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+     }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/*-----------media Quary section ends---------------*/

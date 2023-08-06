@@ -849,10 +849,9 @@ animation-name: C;
         display: flex;
         justify-content: center;
     }
+    
     #button-3{
-    margin-left: 45%;
-    }
-    #button-3{
+	width: 100px;
         background-color: #f9004d;
         color: white;
         text-decoration: none;

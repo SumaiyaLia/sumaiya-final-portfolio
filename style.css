@@ -845,7 +845,10 @@ animation-name: C;
         color: #fcfc;
         letter-spacing: 2px;
     }
-
+.button-3-center{
+        display: flex;
+        justify-content: center;
+    }
     #button-3{
     margin-left: 45%;
     }
